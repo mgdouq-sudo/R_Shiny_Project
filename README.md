@@ -64,3 +64,7 @@ BiocManager::install(c("DESeq2", "fgsea"))
 - The heatmap is capped at the top 500 most variable genes for rendering performance; the full dataset contains over 28,000 genes.
 - All `actionButton` inputs are paired with `isolate()` to control when outputs update, avoiding global reactivity conflicts across tabs.
 - All input and output IDs are uniquely namespaced to prevent conflicts across the four tab modules.
+
+## References
+
+- Labadorf A, Hoss AG, Lagomarsino V, et al. RNA Sequence Analysis of Human Huntington Disease Brain Reveals an Extensive Increase in Inflammatory and Developmental Gene Expression. PLoS One. 2015;10(12):e0143563. Published 2015 Dec 4. doi:10.1371/journal.pone.0143563
